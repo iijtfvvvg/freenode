@@ -1,7 +1,5 @@
 name: sixtt
-on:
-  schedule:
-    - cron: '*/55 * * * *' # Run every day at midnight
+on: [push, workflow_dispatch]
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
