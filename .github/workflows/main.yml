@@ -11,7 +11,7 @@ jobs:
           files=("230117" "230118" "230119" "230120" "230121")
           for file in "${files[@]}"; do
           for i in {1..1}; do
-          wget -nH -m --ftp-user=aaabinjujujy --ftp-password=fgvgtH588/253 "ftp://ftp-aaabinjujujy.alwaysdata.net/www/$file/*"
+          wget -nH -m --ftp-user=naozh001hy --ftp-password=123123123aW@[] "ftp://ftp-naozh001hy.alwaysdata.net/www/$file/*"
           sleep 5
           done
           cp www/$file/* ./
